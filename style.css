@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-size: 100%;
+  background-image: url(https://img.freepik.com/vetores-premium/antigo-mapa-do-tesouro-com-ilhas-do-mar-do-caribe_8071-3991.jpg?w=2000)
+}
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  border-bottom: solid; 5px;
+  background-color skyblue;
+  font-family 'Righteous', cursive;
+}
+.cabecalho-menu{
+  display: flex;
+  gap: 32px;
+}
+.texto-principal{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 50px 300px;
+  padding: 20px;
+  border: solid; 
+  border-radius: 10px;
+  font-family: 'Sarala', sans-serif;
+  font-size: 16px;
+ }
+.img{
+  display: flex;
+  align-items: center;
+  padding: 10px 50px;
+  border-radius: 10px;  
+}
+.escala{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
+li{
+  padding-top: 30px
+}
+h3{
+  font-size: 20px;
+}
+
+fooster{
+display: flex;
+text-align: center;
+}
+.sobre-mim{
+   text-decoration: none;
+    color: #323232;
+    padding: 20px 0.px;
+    background-color: skyblue;
+    color: #FFF;
+    
+   
+}
